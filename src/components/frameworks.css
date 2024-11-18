@@ -1,0 +1,15 @@
+.frameworks{
+    display: flex;
+    flex-direction: column;
+    min-height: 25vh;
+    background-color: beige;
+
+}
+
+.frameworks .frameworks-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+.projects {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.projects .projects-main {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.projects .projects-main h2{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.projects .projects-main p{
+    font-size: 1.2em;
+}
+
+.projects .projects-sum-list{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: black;
+    height: 80vh;
+}
