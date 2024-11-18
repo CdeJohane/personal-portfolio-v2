@@ -1,0 +1,22 @@
+.about {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.about h1{
+    font-size: 4em;
+}
+
+.about p{
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.about > * {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
