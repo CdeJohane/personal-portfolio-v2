@@ -18,11 +18,16 @@
 
 .NavBar-center .nav-links a {
     color: #35342f;
-    font-weight: bold;
     font-size: 1.2rem;
     text-decoration: none;
     display: inline-block;
     position: relative;
+    transition: 0.25s ease-out;
+}
+.NavBar-center .nav-links a:hover {
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.25s ease-out;
 }
 
 .NavBar-center .nav-links a::after {
