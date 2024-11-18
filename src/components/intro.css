@@ -7,10 +7,6 @@
     height: 100vh;
 }
 
-.intro h1 {
-    padding-left: 2rem;
-}
-
-.intro h2 {
+.intro > * {
     padding-left: 2rem;
 }
