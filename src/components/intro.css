@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background-color: #37bbe4;
+    background-image: url("../assets/beige-abstract-wallpaper-background-image.jpg");
     min-height: 100vh;
     width: 100%;
 }
