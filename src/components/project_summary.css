@@ -13,6 +13,9 @@
 .projects-summary img{
     flex: 1;
     max-width: 350px;
+    min-width: 200px;
+    min-height: 300px;
+    max-height: 400px;
     height: auto;
 }
 
