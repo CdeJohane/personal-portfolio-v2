@@ -1,0 +1,58 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 50vh;
+    background-color: beige;
+}
+
+.contacts .buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts .buttons button{
+    min-height: 50px;
+    min-width: 250px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+    border: 3px solid white;
+    transition: 0.3s ease;
+}
+
+.contacts .buttons button:hover{
+    background-color: #e1e0dd;
+    font-size: 18px;
+}
+
+.contacts .buttons .linkedinBtn{
+    background-color: #0e76a8;
+}
+
+.contacts .buttons .linkedinBtn:hover{
+    color: #0e76a8;
+}
+
+.contacts .buttons .githubBtn{
+    background-color: #24292E;
+}
+
+.contacts .buttons .githubBtn:hover{
+    color: #24292E;
+}
+
+.contacts .buttons .emailBtn{
+    background-color: #FFA500;
+}
+
+.contacts .buttons .emailBtn:hover{
+    color: #FFA500;
+}

@@ -1,5 +1,7 @@
 .projects {
     min-height: 80vh;
+    height: auto;
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -9,6 +11,7 @@
     padding-left: 10px;
     padding-right: 10px;
     min-width:300px;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -24,7 +27,6 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-
-    height: 80vh;
+    min-height: 60vh;
     min-width: 300px;
 }
