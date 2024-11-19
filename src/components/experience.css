@@ -1,0 +1,25 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-left: 1rem;
+    border-bottom: 3px solid lightgray;
+    border-left: 3px solid lightgray;
+    justify-content: center;
+}
+
+.experience h3{
+    text-align: left;
+    font-size: 2rem;
+}
+.experience p{
+    font-size: 1rem;
+    text-align: left;
+}
+.experience h5{
+    font-size: 1.3rem;
+    text-align: left;
+    color: gray;
+    margin-bottom: 0;
+    margin-top: 0;
+}
