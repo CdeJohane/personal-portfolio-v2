@@ -1,12 +1,14 @@
 .projects {
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
 .projects .projects-main {
     padding-left: 10px;
     padding-right: 10px;
+    min-width:300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,4 +31,5 @@
     flex-direction: column;
     background: black;
     height: 80vh;
+    min-width: 300px;
 }
