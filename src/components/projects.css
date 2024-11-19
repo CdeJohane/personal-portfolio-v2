@@ -11,15 +11,10 @@
     min-width:300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     flex: 1;
 }
 
-.projects .projects-main h2{
-    font-size: 3em;
-    font-weight: bold;
-}
+
 
 .projects .projects-main p{
     font-size: 1.2em;
