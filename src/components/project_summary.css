@@ -10,6 +10,12 @@
     min-height: 200px;
 }
 
+@media (max-width: 600px) {
+    .projects-summary {
+        flex-direction: column;
+    }
+}
+
 .projects-summary img{
     flex: 1;
     max-width: 350px;
