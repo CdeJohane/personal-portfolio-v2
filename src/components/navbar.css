@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 4rem;
+    min-height: 60px;
     position: fixed;
     top: 0;
     background-color: whitesmoke;
@@ -50,4 +50,42 @@
 .NavBar-center .nav-links a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+.navbar-mobile {
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    height: 2px;
+    width: 27px;
+    background: #000000;
+    margin: 5px 0;
+    opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+    .NavBar{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .navBar-center{
+        position: fixed;
+        top:60px;
+        background-color: whitesmoke;
+        width:100%;
+        padding: 10px 0 25px;
+    }
+
+    .NavBar-center .nav-links{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+        display: none;
+    }
+
+    .navbar-mobile{
+        display: block;
+        padding-right: 20px;
+    }
+
 }
