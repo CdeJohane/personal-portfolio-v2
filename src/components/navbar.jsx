@@ -11,6 +11,7 @@ export default function Navbar() {
     }
     return (
         <div>
+            <div className={`overlay ${isOpen ? 'active' : ''}`} onClick={toggleOpen}></div>
             <nav className="NavBar">
                 <div className="navbar-mobile" onClick={toggleOpen}>
                     <div className="bar"></div>
