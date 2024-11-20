@@ -18,11 +18,11 @@
 
 .projects-summary img{
     flex: 1;
-    max-width: 350px;
+    max-width: 100%;
     min-width: 200px;
     min-height: 300px;
-    max-height: 400px;
     height: auto;
+    border-radius: 25px;
 }
 
 .projects-summary a {
