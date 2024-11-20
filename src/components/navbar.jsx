@@ -21,16 +21,16 @@ export default function Navbar() {
                 <div className="NavBar-center">
                     <ul className={`nav-links ${isOpen ? 'show' : ''}`}>
                         <li className="nav-home">
-                            <a href="#home" onClick={toggleOpen}>Home</a>
+                            <a href="#home">Home</a>
                         </li>
                         <li className="nav-about">
-                            <a href="#about" onClick={toggleOpen}>About</a>
+                            <a href="#about">About</a>
                         </li>
                         <li className="nav-projects">
-                            <a href="#projects" onClick={toggleOpen}>Projects/Experience</a>
+                            <a href="#projects">Projects/Experience</a>
                         </li>
                         <li className="nav-contact">
-                            <a href="#contacts" onClick={toggleOpen}>Contact</a>
+                            <a href="#contacts">Contact</a>
                         </li>
 
                     </ul>
