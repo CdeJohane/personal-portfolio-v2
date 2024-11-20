@@ -5,7 +5,7 @@ import screens from "../assets/screens/webpage.png";
 
 export default function Projects() {
     return (
-        <div className="projects-overall">
+        <div className="projects-overall" id="projects">
             <h1>Projects And Experience</h1>
             <div className="projects">
                 <div className="projects-main">

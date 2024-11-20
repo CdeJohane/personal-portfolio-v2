@@ -2,7 +2,7 @@ import './contacts.css';
 
 export default function Contacts() {
     return (
-        <div className="contacts">
+        <div className="contacts" id="contacts">
             <h1>Contacts</h1>
             <div className="buttons">
                 <button className="emailBtn" type="button" onClick={() => window.location.href = 'mailto:jurath.code@gmail.com'}> Email</button>
