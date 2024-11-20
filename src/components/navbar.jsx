@@ -18,7 +18,7 @@ export default function Navbar() {
                     <div className="bar"></div>
                 </div>
                 <div className="NavBar-center">
-                    <ul className="nav-links">
+                    <ul className={`nav-links ${isOpen ? 'show' : ''}`}>
                         <li className="nav-home">
                             <a href="/home">Home</a>
                         </li>
