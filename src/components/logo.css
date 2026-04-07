@@ -1,21 +1,21 @@
 .logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height:200px;
-    width:200px;
-    padding: 10px;
-    border-radius: 25px;
-    background-color: beige;
-    margin-left: 1em;
-    margin-right: 1em;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  min-height: 110px;
+  display: grid;
+  place-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem;
 }
 
 .logo img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 150px;
-    width: 150px;
+  height: 44px;
+  width: 44px;
+  object-fit: contain;
+}
+
+.logo p {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
