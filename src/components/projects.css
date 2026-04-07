@@ -1,32 +1,19 @@
 .projects {
-    min-height: 80vh;
-    height: auto;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.3rem;
 }
 
-.projects .projects-main {
-    padding-left: 10px;
-    padding-right: 10px;
-    min-width:300px;
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+.projects h2 {
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.9rem;
 }
 
-
-
-.projects .projects-main p{
-    font-size: 1.2em;
-}
-
-.projects .projects-sum-list{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    min-height: 60vh;
-    min-width: 300px;
+.projects-main,
+.projects-sum-list {
+  display: grid;
+  gap: 0.8rem;
+  align-content: start;
 }

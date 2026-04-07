@@ -5,30 +5,61 @@
   src: url(./assets/fonts/questrial-regular-webfont.woff2) format('woff2');
 }
 
+@font-face {
+  font-family: 'Yoxall-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./assets/fonts/yoxallbold-bg3b-webfont.woff2) format('woff2');
+}
+
 :root {
-  font-family: 'Yoxall Normal','Questrial-Regular-400', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  --bg: #f6f6f4;
+  --surface: #ffffff;
+  --text: #121212;
+  --muted: #606060;
+  --line: #dbdbdb;
+  --accent: #d6001c;
+  --accent-soft: rgba(214, 0, 28, 0.08);
+
+  font-family: 'Questrial-Regular-400', Inter, system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.4;
   font-weight: 400;
-
-  color-scheme: light;
-  color: #35342f;
-  background-color: #e1e0dd;
-
+  color: var(--text);
+  background: radial-gradient(circle at 8% 0%, #ffffff 0%, var(--bg) 40%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  display: flex;
   min-height: 100vh;
+  background: radial-gradient(circle at 8% 0%, #ffffff 0%, var(--bg) 40%);
 }
 
-
-h1 {
-  font-size: 4em;
-  line-height: 1.1;
+#root {
+  width: 100%;
+  margin: 0 auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-family: 'Yoxall-Bold', 'Questrial-Regular-400', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+p,
+a,
+button,
+li {
+  font-family: 'Questrial-Regular-400', Inter, sans-serif;
+}

@@ -1,22 +1,24 @@
-.about {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+.about-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
 }
 
-.about h1{
-    font-size: 4em;
+.about h2 {
+  font-size: clamp(1.6rem, 4vw, 2.6rem);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
 }
 
-.about p{
-    font-size: 1.5em;
-    font-weight: 200;
+.about p {
+  color: var(--muted);
+  margin-bottom: 1rem;
+  font-size: 1.02rem;
 }
 
-.about > * {
-    padding-left: 3rem;
-    padding-right: 3rem;
+@media (max-width: 760px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
 }

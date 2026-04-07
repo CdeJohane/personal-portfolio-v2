@@ -9,12 +9,14 @@ import Contacts from "./components/contacts.jsx";
 function App() {
   return (
     <>
-        <Navbar />
-        <Intro  />
+      <Navbar />
+      <main className="page-shell">
+        <Intro />
         <About />
         <Frameworks />
         <Projects />
         <Contacts />
+      </main>
     </>
   )
 }
