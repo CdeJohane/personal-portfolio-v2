@@ -1,15 +1,23 @@
-.frameworks{
-    display: flex;
-    flex-direction: column;
-    min-height: 25vh;
-    background-color: beige;
-
+.frameworks h2 {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  margin-bottom: 0.5rem;
 }
 
-.frameworks .frameworks-list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.skills-note {
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.frameworks h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 1.4rem 0 0.8rem;
+}
+
+.frameworks-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.8rem;
 }

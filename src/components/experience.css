@@ -1,25 +1,24 @@
 .experience {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    margin-left: 1rem;
-    border-bottom: 3px solid lightgray;
-    border-left: 3px solid lightgray;
-    justify-content: center;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 0.9rem;
+  text-align: left;
 }
 
-.experience h3{
-    text-align: left;
-    font-size: 2rem;
+.experience-date {
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.35rem;
 }
-.experience p{
-    font-size: 1rem;
-    text-align: left;
+
+.experience h3 {
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
 }
-.experience h5{
-    font-size: 1.3rem;
-    text-align: left;
-    color: gray;
-    margin-bottom: 0;
-    margin-top: 0;
+
+.experience p {
+  color: var(--muted);
+  font-size: 0.92rem;
 }
