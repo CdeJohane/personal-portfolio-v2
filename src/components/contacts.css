@@ -15,7 +15,7 @@
   margin-top: 1.2rem;
 }
 
-.contacts .buttons button {
+.contacts .buttons a {
   border: 1px solid var(--text);
   background: var(--surface);
   color: var(--text);
@@ -24,9 +24,12 @@
   text-transform: uppercase;
   letter-spacing: 0.06em;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
 }
 
-.contacts .buttons button:hover {
+.contacts .buttons a:hover {
   background: var(--text);
   color: #fff;
 }

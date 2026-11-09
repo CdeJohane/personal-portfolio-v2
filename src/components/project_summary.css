@@ -2,7 +2,7 @@
   border: 1px solid var(--line);
   background: var(--surface);
   display: grid;
-  grid-template-columns: 110px 1fr;
+  grid-template-columns: 1fr;
   min-height: 120px;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
@@ -21,7 +21,7 @@
 
 .projects-summary a {
   text-decoration: none;
-  padding: 0.9rem;
+
   color: inherit;
 }
 
@@ -45,3 +45,7 @@
     max-height: 140px;
   }
 }
+
+.project-content { padding: 0.9rem; }
+.projects-summary a { text-decoration: underline; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

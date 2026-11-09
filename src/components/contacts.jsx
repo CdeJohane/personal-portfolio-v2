@@ -4,18 +4,12 @@ export default function Contacts() {
   return (
     <section className="contacts section" id="contacts">
       <p className="section-title">Contact</p>
-      <h2>Let’s build something thoughtful together.</h2>
-      <p className="contact-note">Replace the links below with your active channels and add your preferred response time.</p>
+      <h2>Let’s talk about software and AI opportunities.</h2>
+      <p className="contact-note">I’m based in Liverpool and completing my MSc in Advanced Computer Science. Get in touch about graduate roles, research collaborations, or any of the projects above.</p>
       <div className="buttons">
-        <button className="emailBtn" type="button" onClick={() => { window.location.href = 'mailto:yourname@email.com'; }}>
-          Email me
-        </button>
-        <button className="linkedinBtn" type="button" onClick={() => window.open('https://www.linkedin.com/in/your-profile/', '_blank')}>
-          LinkedIn
-        </button>
-        <button className="githubBtn" type="button" onClick={() => window.open('https://github.com/yourusername', '_blank')}>
-          GitHub
-        </button>
+        <a className="emailBtn" href="mailto:jurath.code@gmail.com">Email me</a>
+        <a className="linkedinBtn" href="https://www.linkedin.com/in/juniorjohane/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a className="githubBtn" href="https://github.com/CdeJohane" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </section>
   );
