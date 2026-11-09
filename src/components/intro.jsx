@@ -1,26 +1,7 @@
-import './intro.css';
-
 export default function Intro() {
-  return (
-    <section className="intro section" id="home">
-      <p className="section-title">Portfolio</p>
-      <p className="intro-badge">Software development · Applied AI</p>
-      <h1>Hi, I’m Junior Johane. I build software and applied AI projects.</h1>
-      <p className="intro-subtitle">I work with Python, PyTorch, React, and Flask, from reinforcement-learning experiments to full-stack applications. I’m looking for graduate software development and AI/ML engineering roles.</p>
-      <div className="intro-metrics">
-        <div>
-          <p className="metric-label">Student status</p>
-          <p className="metric-value">MSc Advanced Computer Science</p>
-        </div>
-        <div>
-          <p className="metric-label">Research interests</p>
-          <p className="metric-value">Reinforcement Learning · SAT</p>
-        </div>
-        <div>
-          <p className="metric-label">Open to</p>
-          <p className="metric-value">Graduate roles</p>
-        </div>
-      </div>
-    </section>
-  );
+  return <section className="hero" id="home" aria-labelledby="hero-title">
+    <div className="grid hero-top meta"><p>Software development<br />& applied artificial intelligence</p><p>From Botswana.<br />Building in Liverpool.</p></div>
+    <h1 id="hero-title"><span className="mask"><span>Junior</span></span><span className="mask"><span>Johane<span className="name-dot">.</span></span></span></h1>
+    <div className="grid hero-bottom"><p className="meta">Algorithms → Applications</p><p>I build software and applied AI projects. From reinforcement-learning experiments to full-stack applications.</p><a className="meta" href="#projects">Explore selected work ↓</a></div>
+  </section>;
 }

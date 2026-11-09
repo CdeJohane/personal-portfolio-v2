@@ -1,65 +1,11 @@
-@font-face {
-  font-family: 'Questrial-Regular-400';
-  font-style: normal;
-  font-variant: normal;
-  src: url(./assets/fonts/questrial-regular-webfont.woff2) format('woff2');
-}
-
-@font-face {
-  font-family: 'Yoxall-Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: url(./assets/fonts/yoxallbold-bg3b-webfont.woff2) format('woff2');
-}
-
-:root {
-  --bg: #f6f6f4;
-  --surface: #ffffff;
-  --text: #121212;
-  --muted: #606060;
-  --line: #dbdbdb;
-  --accent: #d6001c;
-  --accent-soft: rgba(214, 0, 28, 0.08);
-
-  font-family: 'Questrial-Regular-400', Inter, system-ui, Helvetica, Arial, sans-serif;
-  line-height: 1.4;
-  font-weight: 400;
-  color: var(--text);
-  background: radial-gradient(circle at 8% 0%, #ffffff 0%, var(--bg) 40%);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  min-height: 100vh;
-  background: radial-gradient(circle at 8% 0%, #ffffff 0%, var(--bg) 40%);
-}
-
-#root {
-  width: 100%;
-  margin: 0 auto;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  margin: 0;
-  font-family: 'Yoxall-Bold', 'Questrial-Regular-400', sans-serif;
-  letter-spacing: -0.02em;
-}
-
-p,
-a,
-button,
-li {
-  font-family: 'Questrial-Regular-400', Inter, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&display=swap');
+:root { font-family: 'Inter Tight', sans-serif; color: #0A0A0A; background: #F4F4F0; font-synthesis: none; font-weight: 400; line-height: 1.45; --bg: #F4F4F0; --ink: #0A0A0A; --accent: #E30613; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 0; }
+h1,h2,h3,h4,p,dl,dd { margin: 0; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+a:hover { text-decoration: underline; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+button,input { font: inherit; }
+::selection { background: #0A0A0A; color: #F4F4F0; }

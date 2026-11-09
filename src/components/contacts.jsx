@@ -1,16 +1,3 @@
-import './contacts.css';
-
 export default function Contacts() {
-  return (
-    <section className="contacts section" id="contacts">
-      <p className="section-title">Contact</p>
-      <h2>Let’s talk about software and AI opportunities.</h2>
-      <p className="contact-note">I’m based in Liverpool and completing my MSc in Advanced Computer Science. Get in touch about graduate roles, research collaborations, or any of the projects above.</p>
-      <div className="buttons">
-        <a className="emailBtn" href="mailto:jurath.code@gmail.com">Email me</a>
-        <a className="linkedinBtn" href="https://www.linkedin.com/in/juniorjohane/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a className="githubBtn" href="https://github.com/CdeJohane" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </section>
-  );
+  return <section className="section contact" id="contacts" aria-labelledby="contact-title"><div className="grid"><p className="meta section-index">04 / Contact</p><div className="contact-main"><h2 id="contact-title">Let’s build<br />what’s next<span className="contact-dot">.</span></h2><p>I’m completing my MSc in Advanced Computer Science and looking for graduate software development and AI/ML engineering roles. Get in touch about opportunities, research collaborations, or my projects.</p><a className="email-link" href="mailto:jurath.code@gmail.com">jurath.code@gmail.com <svg className="arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10" /></svg></a><div className="contact-links meta"><a href="https://www.linkedin.com/in/juniorjohane/" target="_blank" rel="noopener noreferrer">LinkedIn <svg className="arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10" /></svg></a><a href="https://github.com/CdeJohane" target="_blank" rel="noopener noreferrer">GitHub <svg className="arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M3 3h10v10" /></svg></a></div></div></div><footer className="meta"><span>© {new Date().getFullYear()} Junior Johane</span><a href="#home">Back to top ↑</a></footer></section>;
 }
